@@ -4,5 +4,5 @@
   s += 'Fizz' if i % 3 == 0
   s += 'Buzz' if i % 5 == 0
 
-  puts (s != '') ? s : i
+  puts (s == '') ? i : s
 end
